@@ -41,18 +41,24 @@ lambda 매개변수1, 매개변수2, ... : 매개변수를 이용한 표현식
 
 한번 직접 만들어 보자.
 
+```
 add = lambda a, b: a+b
 result = add(3, 4)
 print(result)
 7
+```
+
 add는 두 개의 인수를 받아 서로 더한 값을 돌려주는 lambda 함수이다. 위 예제는 def를 사용한 다음 함수와 하는 일이 완전히 동일하다.
 
+```
 def add(a, b):
 return a+b
 
 result = add(3, 4)
 print(result)
 7
+```
+
 ※ lambda 예약어로 만든 함수는 return 명령어가 없어도 결괏값을 돌려준다.
 
 ---
