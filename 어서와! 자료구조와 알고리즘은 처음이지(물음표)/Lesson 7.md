@@ -14,7 +14,8 @@
 
 ## 기본적 연결 리스트
 
-https://t1.daumcdn.net/cfile/tistory/99CEE2425CB7F7CB10
+
+![99CEE2425CB7F7CB10](https://user-images.githubusercontent.com/71562311/199227818-b59cdb18-a6c7-4d58-8bf0-3dcda0725f91.png)
 
 각 칸 하나를 Node라고 부르고
 
@@ -35,7 +36,7 @@ Node 라는 클래스를 만들고 Data, Link를 이용해 인스턴스를 만�
 ```
 class Node:
     def __init__(self, item):
-        self.data = item
+        self.data = item 
         self.next = None
 
 class LinkedList:
