@@ -83,4 +83,4 @@ self.tail = L2.tail
 
 ---
 
-실습
+[실습](https://github.com/dailythm/dailythm-GwonYeong/blob/main/%EC%96%B4%EC%84%9C%EC%99%80!%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%80%20%EC%B2%98%EC%9D%8C%EC%9D%B4%EC%A7%80(%EB%AC%BC%EC%9D%8C%ED%91%9C)/LinkedList.py)
