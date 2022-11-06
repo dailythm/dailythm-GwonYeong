@@ -2,6 +2,16 @@
 
 배열, 선형 배열과 유사한 구조
 
+-   연결 리스트는 원소들이 링크라고 부르는 고리로 연결되어 있어 가운데에서 끊어 하나를 삭제하거나 가운데를 끊고 그 자리에 다른 원소를 삽입하는 것이 선형배열보다 빠른 시간 내에 처리할 수 있음.
+    -   원소의 삽입, 삭제가 빈번히 일어나면 연결 리스트가 사용됨.
+    -   운영체제 내부에서도 연결 리스트가 사용되고 있음.
+
+<br>
+다만 연결 리스트는 선형 배열에 비해 데이터 구조 표현에 소요되는 저장 공간 소요가 큼.
+* 또한 k번째 원소를 찾아가는 데는 선형 배열보다 시간이 오래 걸림.
+
+---
+
 ## 추상적 자료구조
 
 추상적: 내부 구현을 숨겨두고 밖에서 보이는 것을 제공
@@ -13,7 +23,6 @@
     -   정렬, 탐색
 
 ## 기본적 연결 리스트
-
 
 ![99CEE2425CB7F7CB10](https://user-images.githubusercontent.com/71562311/199227818-b59cdb18-a6c7-4d58-8bf0-3dcda0725f91.png)
 
@@ -36,7 +45,7 @@ Node 라는 클래스를 만들고 Data, Link를 이용해 인스턴스를 만�
 ```
 class Node:
     def __init__(self, item):
-        self.data = item 
+        self.data = item
         self.next = None
 
 class LinkedList:
@@ -129,3 +138,19 @@ curr 이라는 변수에 head 노드를 넣었습니다.
 이후 try..except 를 사용하였는데 이는 curr이 None값이 되면 curr.data를 참조하는 과정에서 에러가 나는 것을 이용했습니다.
 
 어쩌면 좋은 코드는 아니지만 짧고 간결하게 하는 목적에서는 사용할 만한 방식이라고 생각합니다.
+
+---
+
+1105 수정
+
+```
+def traverse(self):
+        result = []
+        i = 0
+        curr = self.head
+        while i < self.nodeCount:
+            i+=1
+            result.append(curr.data)
+            curr = curr.next
+        return result
+```

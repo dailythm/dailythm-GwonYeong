@@ -2,7 +2,12 @@
 
 ## node의 삽입과 삭제
 
----
+-   원소의 삽입 (insertion)
+-   원소의 삭제 (deletion)
+-   두 리스트 합치기 (concatenation)
+
+이런 연산을 빠르게 할 수 있다는 것이 연결 리스트의 큰 장점.
+<br>다르게 말하면 이런 연산이 빨라야 하는 응용처에 적용하기 위함이 존재 이유.
 
 ## 연결 리스트 연산 - 원소의 삽입
 
@@ -83,4 +88,24 @@ self.tail = L2.tail
 
 ---
 
-[실습](https://github.com/dailythm/dailythm-GwonYeong/blob/main/%EC%96%B4%EC%84%9C%EC%99%80!%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%80%20%EC%B2%98%EC%9D%8C%EC%9D%B4%EC%A7%80(%EB%AC%BC%EC%9D%8C%ED%91%9C)/LinkedList.py)
+```
+def popAt(self, pos):
+        if pos < 1 or pos > self.nodeCount:
+            raise IndexError
+        curr = self.getAt(pos)
+        if self.nodeCount == 1:
+            self.head=None
+            self.tail=None
+        elif pos == 1:
+
+            self.head = curr.next
+        else:
+            prev = self.getAt(pos-1)
+            if pos == self.nodeCount:
+                self.tail = prev
+                prev.next = None
+            else:
+                prev.next = curr.next
+        self.nodeCount-=1
+        return curr.data
+```
