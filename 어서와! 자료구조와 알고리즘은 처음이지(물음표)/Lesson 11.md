@@ -70,8 +70,10 @@ class ArrayStack:
 ---
 
 양방향 연결 리스트를 이용해 구현
+![양방향 연결 리스트를 이용해 스택 구현](https://user-images.githubusercontent.com/71562311/200171615-98ec1251-cf43-4df1-a850-8968c79b7cd5.PNG)
 
 ---
+
 
 스택 라이브러리를 이용해 구현
 
