@@ -38,3 +38,33 @@ r2 = Q.dequeue() # 나중에 들어온 B를 꺼냄.
 - enqueue(x) : 데이터 원소 x를 큐에 추가
 - dequeue() : 큐의 맨 앞에 저장된 데이터 원소를 제거 (반환)
 - peek() : 큐의 맨 앞에 저장된 데이터 원소를 반환(제거 X)
+
+선입선출!!
+
+---
+
+배열로 구현하면?
+```
+Class ArrayQueue:
+    def __init__(self):
+        self.data = [] # 빈 큐를 초기화
+    def size(self):
+        return len(self.data) # 큐의 크기
+    def isEmpty(self):
+        return self.size() == 0 # 큐가 비어있는지
+    def enqueue(self, item):
+        self.data.append(item) # 데이터 원소를 추가
+    def dequeue(self):
+        return self.data.pop(0) # 데이터 원소를 삭제
+    def peek(self):
+        return self.data[0]
+---
+
+배열로 구현한 큐의 연산 복잡도
+
+dequeue() 는 O(n)이며 (pop 같은 경우 원소를 제거 한 후 뒤에 있는 원소를 앞으로 한 칸씩 당겨주어야 하기 때문)
+
+나머지는 O(1)
+
+---
+from pythonds.basic.queue()
