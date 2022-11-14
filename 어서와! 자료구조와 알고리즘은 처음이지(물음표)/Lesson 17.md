@@ -5,9 +5,11 @@
 트리 : 정점, 간선을 이용해 데이터의 배치 형태를 추상화한 자료구조
 
 실제 나무가 뿌리부터 이파리로 뻗어나가는 모양에서 나온 이름!
+![트리](https://user-images.githubusercontent.com/71562311/201645970-7042c28f-5da2-4fbd-b231-800a3d9ba65b.PNG)
 
-<img src="./자료/17강/트리.png">
-<img src="./자료/17강/컴퓨터 트리.png">
+![컴퓨터 트리](https://user-images.githubusercontent.com/71562311/201645983-d8d002c9-7eb2-4c3c-a72a-16a27222bd3a.PNG)
+
+
 
 가장 위의 Root(A)노드
 
@@ -53,8 +55,9 @@
 ## 이진트리
 
 모든 차수가 2이하인 트리
+![이진 트리](https://user-images.githubusercontent.com/71562311/201646005-f003e683-1646-4c85-ac10-9b3cad1002cb.PNG)
 
-<img src="./자료/17강/이진 트리.png">
+
 
 이진트리는 재귀적으로 정의할 수 있음.
 
@@ -68,16 +71,18 @@
 ## 포화 이진 트리
 
 모든 레벨에서 노드들이 모두 채워져 있는 이진트리
+![포화 이진 트리](https://user-images.githubusercontent.com/71562311/201646022-a7036bd2-02b1-4dc6-83f6-d3912c527b70.PNG)
 
-<img src="./자료/17강/포화 이진 트리.png">
+
 
 높이가 k라면 노드의 개수가 2^k -1 인 이진트리
 
 ---
 
 ## 완전 이진 트리
+![완전 이진 트리](https://user-images.githubusercontent.com/71562311/201646032-f6fa4ce1-2927-479a-82d3-26670c938da5.PNG)
 
-<img src="./자료/17강/완전 이진 트리.png">
+
 
 포화 이진 트리는 아니지만 왼쪽부터 빈틈없이 채워진 트리
 
