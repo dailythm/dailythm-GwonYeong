@@ -6,6 +6,7 @@
   - size() 현재 트리에 포함되어 있는 노드의 수를 구함
   - depth() 현재 트리의 깊이를 구함
   - traversal 정해진 순서대로 트리를 순회
+![이진트리](https://user-images.githubusercontent.com/71562311/202320239-714efdd0-414a-4f14-8519-8bc66064bd90.PNG)
 
 노드
 
@@ -23,13 +24,15 @@ Node
 
 size 같은 메소드는 재귀함수로 구현 가능함.
 
-(이진트리 구현)
+
+![이진트리 구현](https://user-images.githubusercontent.com/71562311/202320124-2a6edf96-6ed9-4441-806e-329bb17ab54a.PNG)
 
 self.root 가 있다면 사이즈를 구할 수 있고 없다면 0을 반환하면 됨.
 
 ---
 
 depth
+![depth](https://user-images.githubusercontent.com/71562311/202320146-dad48009-de75-4d36-b6e9-3ac733dd49a7.PNG)
 
 ---
 
@@ -38,7 +41,8 @@ depth
 깊이 우선 순회
 
 - 중위 순회
-  (중위 순회 )
+  
+![중위 순회](https://user-images.githubusercontent.com/71562311/202320156-18300ae1-59a9-4df0-b319-e721c0b01b89.PNG)
 
 ```
 class Node:
