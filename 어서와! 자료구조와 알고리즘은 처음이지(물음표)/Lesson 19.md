@@ -14,6 +14,7 @@
 - 한 노드를 방문했을 때
   - 나중에 방문할 노드들을 순서대로 기록해 두어야 함.
     - 큐를 이용??
+![넓이우선 순회](https://user-images.githubusercontent.com/71562311/202320062-739b27ec-0b15-4052-8910-c5cb228fd2f2.PNG)
 
 ```
 class ArrayQueue:
