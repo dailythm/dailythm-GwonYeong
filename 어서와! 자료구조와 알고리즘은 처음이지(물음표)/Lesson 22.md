@@ -6,7 +6,8 @@
    - 최대 힙, 최소 힙
 2. 완전 이진 트리여야 함!
 
-(최대 힙의 예)
+
+![최대 힙의 예](https://user-images.githubusercontent.com/71562311/202898040-11764381-b2bb-4d18-86ac-a63dcbfd35e1.PNG)
 
 재귀적으로도 정의 됨.
 
@@ -24,11 +25,13 @@
 
 ## 배열을 이용한 이진 트리의 표현
 
-(데이터 표현의 설계)
+
+![데이터 표현의 설계](https://user-images.githubusercontent.com/71562311/202898043-d25c45df-d576-4790-8f6d-a95d7e011b85.PNG)
 
 완전 이진트리를 만족하기 때문에 배열로 표현하는 것이 나쁘지 않은 방법인 것임.
 
-(최대 힙에 원소 삽입)
+![최대 힙에 원소 삽입](https://user-images.githubusercontent.com/71562311/202898054-ed70eebe-ebfd-413f-bf14-f52c339f889a.PNG)
+
 
 2. 부모 노드와 키 값을 비교하여 위로, 위로 이동
 
