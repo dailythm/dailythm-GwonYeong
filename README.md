@@ -16,3 +16,5 @@
 ## 참고
 
 -   [프로그래머스 코딩테스트 입문](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc)
+
+![코딩테스트 입문 캘린더](https://user-images.githubusercontent.com/71562311/203773404-28ddf7d8-e43e-4a31-9350-96383f866018.png)
